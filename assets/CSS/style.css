@@ -87,7 +87,7 @@ a{text-decoration: none;}
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 343px;
+    max-width: 343px;
     height: 46px;
     background: #2E3545;
     border-radius: 5px;
@@ -121,7 +121,7 @@ a{text-decoration: none;}
 }
 
 .card{
-    width: 343px;
+    max-width: 343px;
     border-radius: 5px;
     background: #252D3C;
     border: 1px solid #252D3C;
@@ -186,7 +186,7 @@ a{text-decoration: none;}
     grid-template-columns: repeat(1, 1fr);
     /* justify-items: center; */
     gap: 32px;
-    margin-left: 32px;
+    margin: 64px 80px;
 }
 
 .features-base{
@@ -231,6 +231,7 @@ a{text-decoration: none;}
     color: #272D37;
     text-align: center;
     margin-bottom: 16px;
+    padding-top: 64px;
 }
 
 .block-paragraph{
@@ -267,7 +268,7 @@ a{text-decoration: none;}
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
-    margin: 116px 0 116px 32px;
+    margin: 116px 0 116px 112px;
 }
 .header-h1-left{
     font-weight: 600;
@@ -345,7 +346,7 @@ a{text-decoration: none;}
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 64px; /* sonrasında değişcek*/
+    padding: 64px 80px 48px 64px;
 }
 
 .footer-btns{
@@ -369,6 +370,7 @@ a{text-decoration: none;}
 
 .footer{
     margin-top: 24px;
+    padding: 64px 80px 48px 64px;
 }
 .text-paragraph{
     font-weight: 400;
@@ -442,7 +444,7 @@ a{text-decoration: none;}
         grid-template-columns: repeat(2, 1fr);
     }
     .card{
-        width: 336px;
+        max-width: 336px;
     }
     .buy-btns{
         padding: 12px 101px 12px 101px;
@@ -563,7 +565,7 @@ a{text-decoration: none;}
         grid-template-columns: repeat(3, 1fr);
     }
     .card{
-        width: 384px;
+        max-width: 384px;
     }
     .price{
         font-size: 36px;
@@ -576,6 +578,9 @@ a{text-decoration: none;}
     .header-h3{
         font-size: 20px;
         font-weight: 500;
+    }
+    .buy-btns{
+        padding: 12px 129px 12px 129px;
     }
     /* Cards end */
 
